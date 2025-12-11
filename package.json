@@ -1,0 +1,29 @@
+{
+  "name": "alemspa-ai-receptionist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrenoFlag/AlemSPA-Ai-Receptionist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrenoFlag/AlemSPA-Ai-Receptionist/issues"
+  },
+  "homepage": "https://github.com/BrenoFlag/AlemSPA-Ai-Receptionist#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
